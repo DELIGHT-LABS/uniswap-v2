@@ -1,0 +1,1 @@
+yarn lint-staged && git add $(git diff --name-only --cached --diff-filter=AM)
